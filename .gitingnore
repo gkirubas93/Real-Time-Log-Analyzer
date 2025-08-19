@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+jspm_packages/
+dist/
+build/
+coverage/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# Optional caches
+.cache/
+.parcel-cache/
+.next/
+out/
+.nuxt/
+.svelte-kit/
+
+# IDE configs (optional, keep if you want)
+.vscode/
+.idea/
+
+# Lock files (optional, but usually kept in team projects)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

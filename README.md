@@ -1,8 +1,8 @@
-📊 Real-Time Log Analyzer
+#📊 Real-Time Log Analyzer
 
 A modern web application for visualizing logs in real-time. It supports WebSocket live streaming, REST API fallbacks, advanced filtering, and chart-based insights.
 
-🚀 Features
+#🚀 Features
 
 Live Updates via WebSocket – See new logs in real-time.
 
@@ -16,7 +16,7 @@ Infinite Scroll – Browse historical logs seamlessly with cursor-based paginati
 
 Timezone Support – Toggle between local time and UTC.
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 
 Frontend: React, Material UI (MUI DataGrid, Charts)
 
@@ -24,12 +24,12 @@ Backend: Node.js, Express, MongoDB
 
 Real-time: WebSocket for push updates
 
-📦 Setup
-1. Clone Repository
+#📦 Setup
+#1. Clone Repository
 git clone https://github.com/gkirubas93/Real-Time-Log-Analyzer.git
 cd log-analyzer
 
-2. Install Dependencies
+#2. Install Dependencies
 # Backend
 cd server
 npm install
@@ -38,7 +38,7 @@ npm install
 cd ../client
 npm install
 
-3. Start Services
+#3. Start Services
 # Backend
 cd server
 npm run dev
@@ -47,14 +47,14 @@ npm run dev
 cd ../client
 npm start
 
-4. Environment Variables
+#4. Environment Variables
 
 Create a .env file in /server with:
 
 MONGO_URI=mongodb://localhost:27017/logs
 PORT=4000
 
-📖 Usage
+#📖 Usage
 
 Open http://localhost:3000 in browser
 
@@ -65,7 +65,7 @@ Scroll down to load older logs automatically
 Stay at top to receive live WebSocket updates
 
 
-🔮 Future Enhancements
+#🔮 Future Enhancements
 
 Here are some potential next steps that would make the tool even more powerful:
 
